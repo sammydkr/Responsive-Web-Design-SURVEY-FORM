@@ -1,0 +1,51 @@
+body {
+  color: #f55c47;
+  background-color: black;
+  text-align: center;
+}
+header{
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+#description{
+  color: #f55c47;
+}
+.form-group1{
+  display: flex;
+  align-items: center;
+  font-size: 1.125rem;
+  margin-bottom: 0.5rem;
+}
+
+.form-card{
+  padding: 1rem;
+  position: absolute;
+  left: 750px;
+  background-color: #564a4a;
+  color: #9fe6a0;
+  border: #4aa96c 2px solid;
+}
+
+button{
+  background-color: #f55c47;
+  border: green 2px dotted;
+}
+
+p{
+  color: #4aa96c;
+  font-size: 1rem;
+}
+
+@media (max-width: 380px max-height: 650){
+  .form-card{
+    position: absolute;
+    left: 2px;
+    padding: 2rem;
+    color: #f55c47;
+  }
+  p{
+    font-weight: bold;
+  }
+}
